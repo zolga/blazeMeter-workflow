@@ -1,0 +1,23 @@
+{
+  "name": "simple-rest-api",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "api",
+    "REST",
+    "reshuffle"
+  ],
+  "dependencies": {
+    "@reshuffle/code-transform": "^0.1.0",
+    "@reshuffle/db": "^0.5.5",
+    "@reshuffle/local-proxy": "^0.3.1",
+    "@reshuffle/server-function": "^0.2.2",
+    "express": "^4.17.1",
+    "swagger-ui-express": "^4.1.2"
+  },
+  "scripts": {
+    "start": "reshuffle-local-server",
+    "build": "echo nothing to build"
+  }
+}
